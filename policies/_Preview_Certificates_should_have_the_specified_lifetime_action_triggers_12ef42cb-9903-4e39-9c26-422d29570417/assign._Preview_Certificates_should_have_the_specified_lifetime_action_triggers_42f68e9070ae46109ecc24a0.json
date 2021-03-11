@@ -1,0 +1,32 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "[Preview]: Certificates should have the specified lifetime action triggers",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/12ef42cb-9903-4e39-9c26-422d29570417",
+  "scope": "/subscriptions/fbe40988-00ba-456f-a32f-9515cad78785",
+  "notScopes": [],
+  "parameters": {
+   "maximumPercentageLife": {
+    "value": 80
+   },
+   "minimumDaysBeforeExpiry": {
+    "value": 90
+   }
+  },
+  "metadata": {
+   "assignedBy": "Jakub Wiatrowski",
+   "parameterScopes": {},
+   "createdBy": "15844d91-c144-4bf9-8d45-b32c15e5e152",
+   "createdOn": "2021-03-11T09:42:45.9805525Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/fbe40988-00ba-456f-a32f-9515cad78785/providers/Microsoft.Authorization/policyAssignments/42f68e9070ae46109ecc24a0",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "42f68e9070ae46109ecc24a0"
+}
